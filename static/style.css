@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Fira Code";
+  background: black;
+  color: white;
+  padding: 0.5em;
+  box-sizing: border-box;
+  font-variant-ligatures: none;
+  overflow-x: hidden;
+}
+
+pre {
+  margin: 0;
+  font-family: "Fira Code";
+  font-variant-ligatures: none;
+  font-size: 1rem;
+}
+
+input {
+  border-style: none;
+  background: transparent;
+  font-family: "Fira Code";
+  color: white;
+  padding: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-variant-ligatures: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+#output {
+  width: 100%;
+}
+
+.terminal-line {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1em;
+}
+
+.accent {
+  color: lightskyblue;
+  text-shadow: lightskyblue 0 0 10px;
+}
