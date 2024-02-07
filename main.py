@@ -10,4 +10,4 @@ setup_interface(app)
 def app_index():
   return render_template('index.html', cd=cd)
 
-app.run()
+app.run(host='0.0.0.0')
